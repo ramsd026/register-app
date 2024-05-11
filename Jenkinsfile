@@ -8,7 +8,7 @@ pipeline {
 	    APP_NAME = "register-app-pipeline"
             RELEASE = "1.0.0"
             DOCKER_USER = "ramsd026"
-            DOCKER_PASS = 'Rqm@1997'
+            DOCKER_PASS = 'civil@1997'
             IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
             IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
     }
